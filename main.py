@@ -4,11 +4,12 @@ import random
 import os
 
 
-# iterate the data[i] from list
+#  iterate the data[i] from list
 def get_random_data():
     return random.choice(data)
 
 
+# main function
 is_game_over = False
 score = 0
 while not is_game_over:
